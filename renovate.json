@@ -1,0 +1,17 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "description": "Test configuration for renovate issue 17845",
+    "extends": [
+        ":ignoreModulesAndTests",
+        ":automergeMinor",
+        ":automergeBranch",
+        ":rebaseStalePrs",
+        ":separateMajorReleases",
+        ":combinePatchMinorReleases",
+        "group:allNonMajor"
+    ],
+    "enabledManagers": ["composer"],
+    "platformAutomerge": true,
+    "rangeStrategy": "replace",
+    "rollbackPrs": true
+}

@@ -1,0 +1,6 @@
+{
+    "name": "internalsystemerror/renovate-issue-17845",
+    "require-dev": {
+        "mikey179/vfsstream": "2.0.x-dev"
+    }
+}
