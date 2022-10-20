@@ -7,10 +7,8 @@
         ":automergeBranch",
         ":rebaseStalePrs",
         ":separateMajorReleases",
-        ":combinePatchMinorReleases",
-        "group:allNonMajor"
+        ":combinePatchMinorReleases"
     ],
-    "enabledManagers": ["composer"],
     "platformAutomerge": true,
     "rangeStrategy": "replace",
     "rollbackPrs": true
